@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;1,100&display=swap");
+
+/* logo color #22D8BE */
+:root {
+  --primary-color: rgb(34, 216, 190);
+  --light-color: #eafcf9;
+  --dark-color: #b7f4eb;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url('rivendell.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 2px;
+}
+
+.container {
+    background: linear-gradient(to right,rgba(34, 216, 190, 0.5), rgba(255, 255, 255, 0));
+    width: 80%;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 50px auto auto 50px;
+   
+}
+
+h1 {
+    color: black;
+    text-shadow: 1px 1px #ffffff80;
+}
+
+#txt-input {
+    display: block;
+    resize: none;
+    width: 50%;
+    height: 100px;
+    padding-top: 3rem;
+    text-align: center;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    border-color: var(--light-color);
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 2px;
+    background: none;
+    font-weight: bolder;
+}
+
+#btn-translate {
+    display: block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem auto 2rem 0;
+    border: none;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bolder;
+    background-color: var(--dark-color);
+}
+
+#btn-translate:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px var(--primary-color);
+}
+
+#txt-input:focus {
+    outline: none;
+}
+
+h3 {
+    text-shadow: 1px 1px #00000080;
+    
+}
+
+#output {
+    border-radius: 1rem;
+    border: solid 1px;
+    width: 50%;
+    border-color: var(--light-color);
+    padding-top: 3rem;
+    text-align: center;
+    height: 100px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #00000080;
+}
+
+.footer {
+    text-align: center;
+    margin: auto auto 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    position: absolute;
+}
+
+.footer-header {
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    padding: 0.5rem auto;
+}
+
+.list-non-bullet {
+    padding: 0;
+    margin: 0.5rem auto;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0 4px;
+}
+
+img {
+    width: 30px;
+    margin: 20px;
+}
+
+.link {
+    text-decoration: none;
+    padding: 4px;
+}
