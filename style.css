@@ -106,12 +106,12 @@ h3 {
 
 .list-non-bullet {
     padding: 0;
-    margin: 0.5rem auto;
+    margin: 0.2rem auto;
 }
 
 .list-item-inline {
     display: inline;
-    padding: 0 4px;
+    padding: 0;
 }
 
 img {
@@ -122,4 +122,45 @@ img {
 .link {
     text-decoration: none;
     padding: 4px;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        background-image: url('galadriel.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    .footer {
+        position: static;
+    }
+
+    .container {
+        background: linear-gradient(to bottom,rgba(34, 216, 190, 0.8), rgba(255, 255, 255, 0.5));
+        margin: 2rem auto;
+        text-align: center;
+    
+    }
+    #txt-input {
+        margin: auto;
+        width: 200px;
+
+    }
+    #btn-translate {
+        margin: 1rem auto;
+    }
+    #output {
+        margin: 1rem auto;
+        width: 200px;
+    }
+    html {
+        height:auto;
+    }
+}
+
+@media screen and (max-height: 720px) {
+    .footer {
+        position: static;
+    }
 }
